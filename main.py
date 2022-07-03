@@ -59,7 +59,6 @@ predictor = DefaultPredictor(cfg)
 meta_data = MetadataCatalog.get("deepfashion_val").set(thing_classes=['short_sleeved_shirt', 'long_sleeved_shirt', 'short_sleeved_outwear', 'long_sleeved_outwear',
             'vest', 'sling', 'shorts', 'trousers', 'skirt', 'short_sleeved_dress',
             'long_sleeved_dress', 'vest_dress', 'sling_dress'])
-print(meta_data.thing_classes)
 
 
 path_dir = u'C:\\Users\\BrawnyClover\\Desktop\\2021CCP\\DeepFashion\\crawled\\casual'
